@@ -1,0 +1,30 @@
+body{
+    background-color: paleturquoise;
+    color: white;
+    text-align: center;
+    background-image: url(login_background.gif);
+    background-size: cover;
+    height: 10vh;
+    padding:0;
+    margin-right: 200px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+nav{
+    height: 6000px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+footer{
+    text-align: center;
+    margin-right: 200px;
+}
+
+
+header{
+    text-align: center;
+    margin-right: 200px;
+}

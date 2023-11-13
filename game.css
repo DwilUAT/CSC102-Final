@@ -1,0 +1,33 @@
+body{
+    background-color: green;
+    color: black;
+    text-align: center;
+    align-self: center;
+    margin-right: 200px;
+}
+
+nav{
+    height: 600px;
+    width: 200px;
+    float: left;
+    text-align: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+footer{
+    text-align: center;
+}
+
+header{
+    text-align: center;
+    margin-right: 200px;
+}
+
+#image{
+    margin-right: 200px;
+}
+
+#dice1res{
+    margin-right: 200px;
+}

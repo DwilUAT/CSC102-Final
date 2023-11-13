@@ -1,0 +1,78 @@
+    <!DOCTYPE html>
+    <html lang="en">
+<!--
+    Daniel Wilhite
+    CSC102 Foundation Assignment
+    Strings Page
+-->
+
+<!--Site meta data-->
+    <head>
+        <!--JavaScript linkage-->
+        <script type="text/JavaScript" src="stringCode.js"></script>
+        <!--CSS linkage-->
+        <link rel="stylesheet" href="strings.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Daniel Wilhite's Strings</title>
+    </head>
+    <nav>
+        <h2>
+            Navigation
+        </h2>
+        <h4>
+            <a href="./index.html">Home</a><br>
+            <a href="./boards.html">Boards</a><br>
+            <a href="./game.html">Games</a><br>
+            Strings<br>
+        </h4>
+    </nav>
+    <body>
+        <header>
+            <h1>Welcome to STRINGS</h1>
+            <H2>Login Below</H2>
+        </header>
+        <br>
+        <br>
+        <br>
+        <h4><p>Please submit the following data for validation:</p></h4>
+        <!--Input Validation Form-->
+        <form id="creditSubmit" onsubmit="return false">
+            First Name: <input type="text" id="firstName"><br>
+            Last Name: <input type="text" id="lastName"><br>
+            Zip Code: <input type="text" id="zipCode"><br>
+            <br>
+            <div id="loginStatus">Press SUBMIT to Validate and Login</div>
+            <br>
+            <input type="submit" value="SUBMIT" onclick="valCreds();">
+        </form>
+        <br>
+        <br>
+        <!--Palindrome Checker-->
+        <h2>Palindrome Check</h2>
+        <br>
+        
+        <br>
+        <form id="palinSubmit" onsubmit="return false">
+            Enter possible Palindrome: <input type="text" id="palinInput">
+            <br>
+            <br>
+            <div id="palinStat">Palindrome Status: Run the Checker</div>
+            <br>
+            <input type="submit" value="Run Checker" onclick="checkPalin();">
+        </form>
+        <img src="palindrome_image.png" height="300px">
+        <br>
+        <br>
+        <!--Audio controls-->
+        <h2>Audio Control</h2>
+        <button onclick="playBGM();">Toggle BGM</button>
+        <br>
+        <br>
+        <footer>Daniel Wilhite<br>
+            University of Advancing Technology<br>
+            2625 W. Baseline Road<br>
+            Tempe, AZ 85283-1056<br>
+        </footer>
+    </body>
+    </html>

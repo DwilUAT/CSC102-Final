@@ -1,0 +1,54 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Daniel Wilhite's Games</title>
+        <!--Game page stylesheet-->
+        <link rel="stylesheet" href="game.css">
+        <!--JavaScript linkage for game-->
+        <script src="gameCode.js"></script>
+    </head>
+    <nav>
+        <h2>
+            Navigation
+        </h2>
+        <h4>
+            <a href="./index.html">Home</a><br>
+            <a href="./boards.html">Boards</a><br>
+            Games<br>
+            <a href="./strings.html">Strings</a><br>
+        </h4>
+    </nav>
+    <body>
+        <!--Header for page-->
+        <header>
+            <h1> Welcome to the Game Zone!</h1>
+            <h4>Where the games happen.</h4>
+        </header>
+        <br>
+        <!--Image for the game title-->
+        <img id="image" src="ohcraps_crop.png">
+        <br>
+        <br>
+        <!--Result lines for the game output-->
+        <p>Chance Cube One landed on: <div id="dice1res">Press the PLAY button to start!</div></p>
+        <p>Chance Cube Two landed on: <div id="dice2res">Press the PLAY button to start!</div></p>
+        <br>
+        <!--sum of the dice rolls-->
+        The total: <div id="sumRes">Press the PLAY button to start!</div>
+        <br>
+        <!--result of the game-->
+        How did you do?<div id="gameRes">Press the PLAY button to start!</div>
+        <!--Button and function setup for game-->
+        <br>
+        <button onclick="playCraps();">Click to PLAY</button>
+        <br>
+        <br>
+        <footer>Daniel Wilhite<br>
+            University of Advancing Technology<br>
+            2625 W. Baseline Road<br>
+            Tempe, AZ 85283-1056<br>
+        </footer>
+    </body>
+    </html>

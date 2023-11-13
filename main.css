@@ -1,0 +1,33 @@
+body{
+    background-color: lightgoldenrodyellow;
+    color: black;
+    margin-right: 200px;
+}
+
+nav{
+    height: 600px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+footer{
+    text-align: center;
+    
+}
+
+#memeImage{
+    margin-right: 200px;
+    text-align: center;
+}
+
+#eventButtons{
+    
+    text-align: center;
+}
+
+header{
+    text-align: center;
+    margin-right: 200px;
+}
